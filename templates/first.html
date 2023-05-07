@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="masthead text-white text-center bg-primary pt-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xs-6">
+                
+                <h3 class="">JNTUK previous year papers Crawler</h3>
+                <!-- <h2 class="mb-5">Get your hands on JNTUK Regulation Question Papers, now available from us! Ace your exams and impress
+                    your professors</h2> -->
+            </div>
+            <div class="col-xs-6 ml-3">
+
+
+                <form method="post" action="/sem">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            
+                            <select name="year" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option value="1">1st year</option>
+                                <option value="2">2st year</option>
+                                <option value="3">3st year</option>
+                                <option value="4">4st year</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <select name="sem" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option value="1">1st sem</option>
+                            <option value="2">2nd sem</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <button type="submit" class="btn btn-block btn-lg btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    <br>
+    <br>
+</header>
+<section>
+    <div class="container mb-4">
+        <a id="aboutus"></a>
+        <h2 class="text-left text-bold pt-4 mb-4"> JNTUK PREVIOUS YEAR PAPERS </h2>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <p class="text-left">
+                    The QUESTION PAPERS CRAWLER was created by combining the REQUESTS (a Python
+                    programme) that gathers data from the internet with the BEAUTIFUL SOUP (a Python tool) that parses
+                    the material that was gathered. The web content (HTML, CSS) is then provided using FLASK (a backend
+                    framework).
+                </p>
+                <p class="text-left">
+                    "FETCH UP" is a user-friendly website for retrieving previous year JNTUK B TECH exam papers.
+                    Anyone who needs the content can visit the website. When a user wants a reference to model
+                    questions, he may enter the website, pick the appropriate department, year, and semester from
+                    the drop down menu, and download the paper according to his desired regulation, such as R16,
+                    R19, R20, and so on.
+                </p>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <img class="img-fluid" src="/static/Tech.png" alt="media download">
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+            <a id="ourworks"></a>
+            <h2 class="text-left text-bold pt-4 mb-4">Tech stack used</h2>
+            <ul>
+                <li>Flask</li>
+                <li>Python Requests</li>
+                <li>Python Beautiful Soup</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+            
+            <h2 class="text-left text-bold pt-4 mb-4">We are Upcoming with</h2>
+            <ul>
+                <li>Adding support to facebook, twitter and youtube Downloads </li>
+                <li>API Automation : we build automation services on api and websites which are taking so much human
+                    effort</li>
+                <li>Fastest video Streaming & Live Tv </li>
+                <li>Crawlers - Best for Collecting Data (ML & DL)</li>
+                <li>Seo tools - improving websites rankings</li>
+                <li>Future Python Projects on ML, DL and IOT</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
